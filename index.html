@@ -1,0 +1,16 @@
+<h1>Bank Accounts</h1>
+<ul id="bank-accounts-list"></ul>
+<button id="create-account-button">Add Bank Account</button>
+
+<div id="modal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 1px solid black;">
+  <h2>Create Bank Account</h2>
+  <label for="account-name">Name:</label>
+  <input type="text" id="account-name" />
+  <label for="account-provider">Provider:</label>
+  <select id="account-provider">
+    <option value="kutxabank">Kutxabank</option>
+  </select>
+  <button id="save-account">Save</button>
+  <button id="close-modal">Close</button>
+</div>
+<script src="./renderer.js"></script>
