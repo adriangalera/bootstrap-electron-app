@@ -1,0 +1,11 @@
+I want to create an electron application to handle bank accounts. 
+
+So far, let's create the first window. 
+
+Each bank account must have a name and a provider (so far only one provider named kutxabank can be selected).
+
+The first window must have a list of the created bank accounts and a button to create a new one. Each entry on the list must display the name, the provider and a button to delete the bank account.
+
+Once the button to create a new one is clicked, a new modal should appear where it request the user to provide the bank account name and the provider
+
+------------------------------------------------------------------------------------------
